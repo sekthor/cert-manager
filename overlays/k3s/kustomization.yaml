@@ -5,6 +5,6 @@ namespace: cert-manager
 bases:
   - ../../base
 
-#resources:
-#  - cluster-issuer-staging.yaml
-#  - cluster-issuer-prod.yaml
+resources:
+  - cluster-issuer-staging.yaml
+  - cluster-issuer-prod.yaml
